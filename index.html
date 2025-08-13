@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="assets/template/css/bootstrap.min.css" type="text/css" media="screen">
     <link rel="stylesheet" href="assets/template/css/style.css" type="text/css" media="screen">
 
-	<!--Logo on the browser tab. The files must be on the style.css folder-->
+	<!--Logo on the browser tab. The files must be on the style.css folder. Revisa!!!-->
     <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
     <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <link rel="shortcut icon" href="favicon.ico" /> <!--De momento no existe el archivo-->
@@ -122,7 +122,7 @@
 <div class="pad"></div>
 	<div id="slider">
 		<div class="video">
-			<img src="assets/images/slide2.png" alt="Water on tile"> <!--No se ve la foto, no se por qué. Revisar-->
+			<img src="assets/images/slide2.png" alt="Water on tile"> <!--Recuerda: las fotos no se ven en Live Server-->
 		<div class="overlay">
 			<div class="container">
 				<h1>Пропитки для&nbsp;бетона</h1>
@@ -169,7 +169,7 @@
 	</div>
 </div>
 
-<!--Our products-->
+<!--Our products by purpose-->
 <div class="categories py-6">
 	<div class="container">
 		<div class="h2">Наша продукция по назначению</div>
@@ -196,41 +196,33 @@
 	</div>
 </div>
 
-
-			<div class="py-6">
+<!--All our products-->
+<div class="py-6">
 	<div class="container">
 		<div class="h2 mb-4">Вся продуктовая линейка</div>
 		<div class="row align-items-center">
 			<div class="col-12 col-md-8 col-lg-9">
-				<ul class="products-list">
-					<li><a href="products/superplasticizing/aquila-formica">Aquila Formica</a></li>
-<li><a href="products/increasing-strength/aquila-forza">Aquila Forza</a></li>
-<li><a href="products/retarders/aquila-helix">Aquila Helix</a></li>
-<li><a href="products/separating-agents-for-molds-and-formwork/aquila-limax">Aquila Limax</a></li>
-<li><a href="products/superplasticizing/aquila-lorica">Aquila Lorica</a></li>
-<li><a href="products/superplasticizing/aquila-lynx">Aquila Lynx</a></li>
-<li><a href="products/antifreeze/aquila-nix">Aquila Nix</a></li>
-<li><a href="products/air-entrainment/aquila-pluma">Aquila Pluma</a></li>
-<li><a href="products/antifreeze/aquila-rapid">Aquila Rapid</a></li>
-<li><a href="products/accelerating/aquila-rapid-sc">Aquila Rapid SC</a></li>
-<li><a href="products/stabilizing/aquila-scutum">Aquila Scutum</a></li>
-<li><a href="products/plasticizing/aquila-simplex">Aquila Simplex</a></li>
-<li><a href="products/antifreeze/aquila-simplex-w">Aquila Simplex W</a></li>
-<li><a href="products/curings-for-the-care-of-freshly-laid-concrete/aquila-tectum">Aquila Tectum</a></li>
-<li><a href="products/superplasticizing/aquila-vermis">Aquila Vermis</a></li>
-<li><a href="products/accelerating/aquila-vespa">Aquila Vespa</a></li>
-<li><a href="products/for-vibropressed-products/aquila-via">Aquila Via</a></li>
-<li><a href="products/for-masonry-mortars/aquila-vita">Aquila Vita</a></li>
+				<ul class="products-list"> <!--Maybe remove class="nav-link". Revisar-->
+					<li><a href="/products/separating-agents-for-molds-and-formwork" class="nav-link" >BASE-2</a></li>
+					<li><a href="/products/superplasticizing" class="nav-link" >BASE-5</a></li>
+					<li><a href="/products/plasticizing" class="nav-link" >BASE-8</a></li>
+					<li><a href="/products/antifreeze" class="nav-link" >BASE-10</a></li>
+					<li><a href="/products/retarders" class="nav-link" >TOP-3</a></li>
+					<li><a href="/products/accelerating" class="nav-link" >PROTECT-40</a></li>
 				</ul>
 			</div>
+
+			<!--Imagen que aparece transparente al lado de los productos. Revisar-->
 			<div class="d-none d-md-block col-md-4 col-lg-3 text-center">
 				<img src="assets/template/img/i_cement.png" alt="" style="width:100%;opacity:.08;">
 			</div>
 		</div>
 	</div>
 </div>
-			<div class="pb-6">
-			    <div class="container"><div class="main-form">
+
+<!--Formulario que no nos hace falta. Usa la carpeta ajax_form.Revisar-->
+<div class="pb-6">
+	<div class="container"><div class="main-form">
 	<div class="row g-5 align-items-center">
 		<div class="col-12 col-lg-6">
 			<div class="h3">Форма обратной связи</div>
@@ -238,49 +230,47 @@
 		</div>
 		<div class="col-12 col-lg-6">
 			<form class="form-order ajax_form" action="" method="post" id="orderForm">
-	 <input type="hidden" value="Главная" name="pagetitle">
-	 
-	  <div class="row">
-			<div class="col-12 col-md-6 col-lg-12 col-xl-6">
-				 <div class="mb-4">
-					  <input name="name" type="text" class="form-control" value="" placeholder="Имя">
-				 </div>
-			</div>
-			<div class="col-12 col-md-6 col-lg-12 col-xl-6">
-				 <div class="mb-4">
-					  <input name="phone" type="text" class="form-control phone_mask" value="" placeholder="Телефон">
-				 </div>
-			</div>
-			
+	 			<input type="hidden" value="Главная" name="pagetitle">
+	 	  		<div class="row">
+					<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+				    	<div class="mb-4">
+							<input name="name" type="text" class="form-control" value="" placeholder="Имя">
+						</div>
+					</div>
+					<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+						<div class="mb-4">
+							<input name="phone" type="text" class="form-control phone_mask" value="" placeholder="Телефон">
+				 		</div>
+					</div>
+				</div>
+		    	<div class="mb-4">
+					<textarea name="message" id="message" class="form-control" cols="30" rows="2" placeholder="Сообщение"></textarea>
+		        </div>
+	    		<input name="agree" type="hidden" value="">
+	 			<div class="row">
+		    		<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+						<div class="form-check mb-4 mb-md-0 mb-lg-4 mb-xl-0">
+							<input name="agree" type="checkbox" class="form-check-input" id="table_check">
+							<label class="form-check-label small" for="table_check">Ознакомлен(а) с <a href="assets/docs/private-policy.pdf" target="_blank">пользовательским соглашением</a></label>
+						</div>
+		  			</div>
+					<div class="col-12 col-md-6 col-lg-12 col-xl-6">
+						<div class="">
+							<button type="submit" class="btn btn-primary w-100">Отправить сообщение</button>
+						</div>
+					</div>
+				</div>
+				<input type="hidden" name="af_action" value="3785f62043208b730d75f65f8822110c" />
+			</form>
 		</div>
-		
-		 <div class="mb-4">
-			 <textarea name="message" id="message" class="form-control" cols="30" rows="2" placeholder="Сообщение"></textarea>
-		 </div>
-	 <input name="agree" type="hidden" value="">
-	 <div class="row">
-		  <div class="col-12 col-md-6 col-lg-12 col-xl-6">
-				<div class="form-check mb-4 mb-md-0 mb-lg-4 mb-xl-0">
-						  <input name="agree" type="checkbox" class="form-check-input" id="table_check">
-						  <label class="form-check-label small" for="table_check">Ознакомлен(а) с <a href="assets/docs/private-policy.pdf" target="_blank">пользовательским соглашением</a></label>
-				</div>
-		  </div>
-		  <div class="col-12 col-md-6 col-lg-12 col-xl-6">
-				<div class="">
-					 <button type="submit" class="btn btn-primary w-100">Отправить сообщение</button>
-				</div>
-		  </div>
-	  </div>
-
-	<input type="hidden" name="af_action" value="3785f62043208b730d75f65f8822110c" />
-</form>
+		</div>
 		</div>
 	</div>
-</div></div>
-			</div>
-			
-		</div>
-		<footer>
+	</div>	
+</div>
+
+
+<footer>
 	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-3 col-lg-2 mb-4">
