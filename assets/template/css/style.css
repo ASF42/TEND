@@ -51,7 +51,7 @@ header.mob-active .w-100{margin-bottom:20px;}
 header.hide{top:-102px;}
 header .d-flex{align-items: center;justify-content: space-between;position: relative;flex-wrap: wrap;}
 header.fix .logo{height:42px;overflow: hidden;}
-header .logo img{height:48px;}
+header .logo img{height:42px;} /* Hacer el logo más pequeño. Revisar */
 header .right{display: flex;align-items: center;}
 header .phone{color:#111820;font-weight: 600;font-size: 18px;}
 header .search-btn {cursor:pointer;margin-left: 20px;}
