@@ -164,7 +164,7 @@ a.pdf{display: inline-flex;align-items: center;padding:8px 0;color:#111820;font-
 a.pdf::before{content:"";display: block;width:24px;height:24px;background: url(../img/i_pdf.png) center center no-repeat;background-size: 24px 24px;margin-right: 8px;}
 a.pdf:hover{color:#255489;}
 
-/*Imagen de fondo del formulario. No se ve. Revisar*/
+/*Imagen de fondo del formulario. It works! I don't know why. Revisar*/
 .main-form{padding:20px;background: url(../img/brick.png) center center no-repeat;background-size: cover;box-shadow: 0 4px 16px rgba(0,0,0,.16);color:#FFF;margin-left:-20px;margin-right:-20px;}
 .main-form .h3{color:#FFF;text-shadow: 0 0 16px rgba(0,0,0,.24);}
 .main-form form{background: rgba(255,255,255,.8);backdrop-filter: blur(2px);padding:24px;border-radius: 8px;color:#66676B;}
