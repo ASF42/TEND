@@ -55,7 +55,7 @@ header .logo img{height:48px;}
 header .right{display: flex;align-items: center;}
 header .phone{color:#111820;font-weight: 600;font-size: 18px;}
 header .search-btn {cursor:pointer;margin-left: 20px;}
-header .search-btn:hover{opacity: .75;}
+header .search-btn:hover{opacity: .75;} /* Hover = al pasar el ratón por encima */
 
 .search-block{position: absolute;top: 0;display: none;left: 72px;right: 0;height: 46px;padding: 10px 0;background: #FFF;}
 .search-block .container{height:100%;display: flex;position: relative;align-items: center;padding:0;}
