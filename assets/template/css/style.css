@@ -164,7 +164,7 @@ a.pdf{display: inline-flex;align-items: center;padding:8px 0;color:#111820;font-
 a.pdf::before{content:"";display: block;width:24px;height:24px;background: url(../img/i_pdf.png) center center no-repeat;background-size: 24px 24px;margin-right: 8px;}
 a.pdf:hover{color:#255489;}
 
-
+/*Imagen de fondo del formulario. No se ve. Revisar*/
 .main-form{padding:20px;background: url(../img/brick.png) center center no-repeat;background-size: cover;box-shadow: 0 4px 16px rgba(0,0,0,.16);color:#FFF;margin-left:-20px;margin-right:-20px;}
 .main-form .h3{color:#FFF;text-shadow: 0 0 16px rgba(0,0,0,.24);}
 .main-form form{background: rgba(255,255,255,.8);backdrop-filter: blur(2px);padding:24px;border-radius: 8px;color:#66676B;}
@@ -206,7 +206,7 @@ footer{padding:20px 0;color:#111820;font-size: 16px;}
 footer .copyrights{font-size: 14px;}
 footer a{color:#111820;-moz-transition:all .2s ease;-webkit-transition:all .2s ease;-o-transition:all .2s ease;transition:all .2s ease;}
 footer a:hover, footer .menu a:hover{color:#255489;}
-footer .logo img{height:120px;}
+footer .logo img{height: 42px;}
 footer hr{margin:8px 0 32px 0;}
 footer .menu{list-style: none;margin-bottom: 0px;padding:0px;display:flex;flex-direction: column;}
 footer .menu a, footer .menu span{padding:4px 0;font-weight: 600;}
