@@ -48,7 +48,8 @@ b,strong, .bold{font-weight: 600;}
 .py-6{padding-top: 48px !important;padding-bottom: 48px !important;}
 .state-overflow{overflow: hidden;}
 
-header{padding:20px 0;border-bottom:1px solid #EEE;position: fixed;z-index: 10;width:100%;top:0px;transition:all .4s ease;background: #FFF;max-height: 100%;}
+/*La línea que no me gustaba, que se veía al terminar el header: header{padding:20px 0;border-bottom:1px solid #EEE;...} */
+header{padding:20px 0;position: fixed;z-index: 10;width:100%;top:0px;transition:all .4s ease;background: #FFF;max-height: 100%;}
 header.active{box-shadow: 0 0 16px rgba(0,0,0,.24);}
 header .w-100{transition:all .4s ease;}
 header.mob-active .w-100{margin-bottom:20px;}
@@ -147,14 +148,14 @@ header #mobile-menu ul .nav-link{text-transform: inherit;line-height: 1.2em;}
 .features .h4{margin-bottom: 16px;}
 
 
-.categories{background: #eeefef;}
+.categories{background: #FFF;} /* eeefef */
 .categories .h2{border-bottom:1px solid rgba(17, 24, 32, .2);padding:0 0 16px 0;margin-bottom:40px;}
-.category{display: block;position: relative;overflow: hidden;height:100%; background: #FFF;}
+.category{display: block;position: relative;overflow: hidden;height:100%; background: #eeefef;} /* FFF */
 .category .img::before{content:"Подробнее";display: block;position: absolute;bottom:0px;left:0px;right:0px;background: rgba(255, 255, 255, .6);padding:12px 20px;color:#111820;font-size:14px;font-weight: 600;z-index: 1;transition:all .3s ease;transform: translateY(100%);}
 .category:hover .img::before{transform: translateY(0);border-radius: 0 0 0 2px;backdrop-filter: blur(5px);}
 .category .img{height:260px;overflow: hidden;display: block;background: #000;border-radius: 8px;position: relative;}
 .category img{object-fit:cover;object-position: center center;width:100%;height:100%;opacity: .8;transition:all .4s ease;}
-.category .title{display: block;background-color:#eeefef;padding:20px 0;font-size:16px;color:#111820;border-radius:4px;font-weight: 800;line-height: 1.2em;text-transform: uppercase;transition:all .2s ease;}
+.category .title{display: block;background-color:#FFF;padding:20px 0;font-size:16px;color:#111820;border-radius:4px;font-weight: 800;line-height: 1.2em;text-transform: uppercase;transition:all .2s ease;} /* eeefef */
 .category:hover .title{color:#255489;}
 .category:hover img{opacity: 1;}
 
