@@ -148,14 +148,14 @@ header #mobile-menu ul .nav-link{text-transform: inherit;line-height: 1.2em;}
 .features .h4{margin-bottom: 16px;}
 
 
-.categories{background: #FFF;} /* eeefef */
+.categories{background: #eeefef;} /* eeefef */
 .categories .h2{border-bottom:1px solid rgba(17, 24, 32, .2);padding:0 0 16px 0;margin-bottom:40px;}
-.category{display: block;position: relative;overflow: hidden;height:100%; background: #eeefef;} /* FFF */
+.category{display: block;position: relative;overflow: hidden;height:100%; background: #eeefef;} /* FFF - problematic!*/
 .category .img::before{content:"Подробнее";display: block;position: absolute;bottom:0px;left:0px;right:0px;background: rgba(255, 255, 255, .6);padding:12px 20px;color:#111820;font-size:14px;font-weight: 600;z-index: 1;transition:all .3s ease;transform: translateY(100%);}
 .category:hover .img::before{transform: translateY(0);border-radius: 0 0 0 2px;backdrop-filter: blur(5px);}
 .category .img{height:260px;overflow: hidden;display: block;background: #000;border-radius: 8px;position: relative;}
 .category img{object-fit:cover;object-position: center center;width:100%;height:100%;opacity: .8;transition:all .4s ease;}
-.category .title{display: block;background-color:#FFF;padding:20px 0;font-size:16px;color:#111820;border-radius:4px;font-weight: 800;line-height: 1.2em;text-transform: uppercase;transition:all .2s ease;} /* eeefef */
+.category .title{display: block;background-color:#eeefef;padding:20px 0;font-size:16px;color:#111820;border-radius:4px;font-weight: 800;line-height: 1.2em;text-transform: uppercase;transition:all .2s ease;} /* eeefef */
 .category:hover .title{color:#255489;}
 .category:hover img{opacity: 1;}
 
